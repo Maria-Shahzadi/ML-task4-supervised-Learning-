@@ -1,0 +1,8 @@
+SVM Kernel Comparison Lab: Using the make_moons and make_circles synthetic
+datasets, train SVM with Linear, Polynomial (degree 2 and 3), and RBF kernels and
+visualise the decision boundary for each. Then switch to the Breast Cancer dataset,
+apply StandardScaler, and train SVC with the RBF kernel. Use GridSearchCV to tune C
+and gamma over a grid and report the best parameters. Plot the heatmap of GridSearch
+scores (C vs gamma). Compare SVM against Logistic Regression, KNN, and Random
+Forest using accuracy, F1, and AUC-ROC. Print a final model comparison table across
+all five classifiers covered this week.
