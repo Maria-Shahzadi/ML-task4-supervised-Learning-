@@ -1,0 +1,7 @@
+Metrics Dashboard: Train a Logistic Regression model on an imbalanced binary
+classification dataset (e.g. Credit Card Fraud or Titanic). Manually compute Precision,
+Recall, F1, and Accuracy from the raw confusion matrix using NumPy, then verify with
+sklearn's classification_report(). Plot the full Confusion Matrix as a heatmap. Plot the
+ROC Curve and shade the AUC area. Plot the Precision - Recall Curve. Then shift the
+classification threshold from 0.1 to 0.9 and plot how Precision and Recall change with
+the threshold. Print a final summary table of all metrics at the default 0.5 threshold.
