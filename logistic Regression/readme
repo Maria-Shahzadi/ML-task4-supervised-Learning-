@@ -1,0 +1,7 @@
+● Logistic Regression from Scratch + sklearn: Using the Breast Cancer Wisconsin
+dataset, implement Binary Logistic Regression manually using NumPy - define the
+sigmoid, compute log - loss, and run gradient descent to update weights. Then train the
+same model using sklearn's LogisticRegression(). Compare manually computed weights
+vs sklearn coefficients side by side. Plot the decision boundary on two selected features.
+Extend to multiclass classification using the Iris dataset with OvR strategy and print
+.predict_proba() outputs.
