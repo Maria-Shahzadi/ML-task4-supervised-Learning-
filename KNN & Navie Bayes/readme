@@ -1,0 +1,6 @@
+KNN vs Naive Bayes Comparison: Using the Digits dataset (or Wine Quality), train
+KNeighborsClassifier across K values from 1 to 20, plot the Elbow Curve of validation
+accuracy vs K, and pick the best K. Visualise the decision boundary for K=1, K=5, and K=15 using two PCA components. Then train GaussianNB on the same dataset and
+compare accuracy, precision, recall, and F1 with KNN. Additionally, use MultinomialNB
+on the 20 Newsgroups text dataset with TF - IDF features for a text classification task.
+Print a final comparison table for all models
