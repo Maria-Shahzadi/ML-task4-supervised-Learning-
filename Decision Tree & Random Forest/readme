@@ -1,0 +1,8 @@
+Tree Models Lab: Using the Heart Disease or Titanic dataset, train a
+DecisionTreeClassifier with no depth limit and observe overfitting. Then apply pre -
+pruning by tuning max_depth, min_samples_split, and min_samples_leaf using
+GridSearchCV and plot validation curves. Visualise the best tree using plot_tree(). Then
+train a RandomForestClassifier with 100 trees and compare accuracy, F1, and AUC -
+ROC against the single Decision Tree. Plot a Feature Importance bar chart from both
+models. Report OOB error for the Random Forest and compare all results in a final
+summary table.
